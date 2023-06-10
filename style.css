@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.rowSection {
+  width: 100%;
+  float: right;
+}
+
+.box {
+  height: 40px;
+  width: 40px;
+  border-style: solid;
+  border-width: 1px;
+  float: left;
+}
+
+
+.blue {
+  background: blue;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+
+.orange {
+  background: orange;
+}
+
+.purple {
+  background: purple;
+}
+
+
+.topEdge {
+  border-top-width: 2.5px;
+}
+
+.leftEdge {
+  border-left-width: 2.5px;
+}
+
+.rightEdge {
+  border-right-width: 2.5px;
+}
+
+.bottomEdge {
+  border-bottom-width: 2.5px;
+}
+
+#grid .blank {
+  background: white !important;
+}
+  
