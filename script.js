@@ -1,3 +1,4 @@
+
 class Region {
   constructor(startR, startC, endR, endC) {
    this.startR = startR;
@@ -93,7 +94,7 @@ function createGridContent(size) {
       if (c === 2 || c === 5)
         edges += 'rightEdge ';
     }
-      content += '<div class="box ' + edges + colorClass + '" id="' + boxId + '"></div>';
+      content += '<div class="box ' + edges + '" id="' + boxId + '" style= background:' + colorClass +  ';></div>';
     }
     content += ' </div>';
 }
@@ -101,7 +102,7 @@ function createGridContent(size) {
 }
 
 function generateColors(size) {
-  var available = ["blue", "red", "green", "yellow", "orange", "purple", "gray", "pink", "teal"]
+  var available = [document.getElementById("picker-1").value, document.getElementById("picker-2").value, document.getElementById("picker-3").value, document.getElementById("picker-4").value, document.getElementById("picker-5").value, document.getElementById("picker-6").value];
   return available.slice(0, size);
 }
 
