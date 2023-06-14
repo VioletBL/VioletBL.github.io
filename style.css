@@ -16,7 +16,17 @@ html {
   float: left;
 }
 
+.clr-field {
+  margin: 10px;
+}
 
+
+#pallete {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  width: 150px;
+}
 .blue {
   background: blue;
 }
