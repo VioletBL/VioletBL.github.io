@@ -20,12 +20,25 @@ html {
   margin: 10px;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.row.border-above {
+  border-top: 1px solid grey;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 #pallete {
-  position: absolute;
-  top: 70px;
-  right: 30px;
-  width: 150px;
+  display: flex;
+  flex-direction: column;
 }
 .blue {
   background: blue;
